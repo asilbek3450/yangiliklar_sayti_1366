@@ -481,3 +481,45 @@ footer{
 	margin-top: 30px;
 	text-align: right;
 }
+
+/* Qidiruv formasi */
+#search-form {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+
+}
+
+#search-form form {
+    display: flex;
+    align-items: center;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 5px 10px;
+    max-width: 300px;
+}
+
+#search-form input[type="text"] {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 8px;
+    font-size: 14px;
+    color: #333;
+    width: 100%;
+}
+
+#search-form button {
+    border: none;
+    background-color: #0073e6;
+    color: white;
+    border-radius: 50%;
+    padding: 8px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#search-form button:hover {
+    background-color: #005bb5;
+}
